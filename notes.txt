@@ -1,0 +1,12 @@
+# Azure Networking Lab - Notes
+
+Date: April 2025
+
+- Created resource group: RG-NetworkLab
+- Created VNet: VNet-Lab with 10.0.0.0/16
+- Created Subnet: Subnet-1 (10.0.1.0/24)
+- Deployed VM: NetTestVM (Windows Server 2019, B1s)
+- Attached to Subnet-1
+- Enabled RDP (3389)
+- Set custom DNS: 1.1.1.1 in VNet
+- Restarted NIC and verified DNS inside VM using ipconfig
